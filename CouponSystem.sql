@@ -1,0 +1,40 @@
+-- create TABLE Company(
+-- ID int NOT NULL AUTO_INCREMENT,
+-- COMP_NAME text  NOT NULL,
+-- PASSWORD text NOT NULL,
+-- EMAIL text NOT NULL,
+-- PRIMARY KEY (ID)
+-- )
+
+-- create Table Customer(
+-- ID int NOT NULL auto_increment,
+-- CUST_NAME TEXT NOT NULL,
+-- PASSWORD text NOT NULL,
+-- primary key (ID)
+-- );
+
+-- create table Coupon (
+-- ID int auto_increment NOT NULL,
+-- TITLE text NOT NULL,
+-- START_DATE date NOT NULL,
+-- END_DATE date NOT NULL,
+-- AMOUNT int NOT NULL,
+-- TYPE text NOT NULL,
+-- MESSAGE text NOT NULL,
+-- PRICE double NOT NULL,
+-- IMAGE text NOT NULL,
+-- primary key (ID)
+-- );
+
+-- create table Customer_Coupon(
+-- CUST_ID int NOT NULL,
+-- COUPON_ID int NOT NULL,
+-- primary key (CUST_ID, COUPON_ID)
+-- );
+-- 
+-- create table Company_Coupon(
+-- COMP_ID int NOT NULL,
+-- COUPON_ID int NOT NULL,
+-- primary key (COMP_ID, COUPON_ID)
+-- );
+-- 
